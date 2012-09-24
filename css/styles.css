@@ -1,0 +1,105 @@
+/* ------------- */
+/* - Body/HTML - */
+/* ------------- */
+body {
+	font-family: 'Quicksand', 'Helvetica', sans-serif;
+	margin: 0 auto;
+	background-color: #FFF;
+	width: 980px;
+	background:url(../images/Background.png)  no-repeat top center;
+}
+
+html {
+	/* http://stackoverflow.com/questions/9733011/safari-changing-font-weights-when-unrelated-animations-are-running */
+	-webkit-font-smoothing: antialiased; 
+}
+
+/* ---------- */
+/* - Header - */
+/* ---------- */
+
+header a, header a:hover, header a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+h1 {
+	font-family: 'Euphoria Script', cursive;
+	font-size:60px;
+	color: #053055;
+	text-align: center;
+	margin: 34px 0 14px;
+}
+
+/* -------------- */
+/* - Navigation - */
+/* -------------- */
+
+nav div {
+	float: left;
+}
+
+ul {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	float:left;	
+	width: 250px;
+	height: 250px;
+	margin: 5px;
+/*	background-color: #333;*/
+	background-color: #053055;
+	position: relative;
+	overflow: hidden;
+}
+
+li h2 {
+	font-size: 28px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: right;
+	margin: 0;
+	transition: margin-right 0.2s ease-out;
+	
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	z-index: 99;
+}
+
+li:hover h2 {
+	margin-right: 15px;
+}
+
+.spacer {
+	width: 98px;
+	padding:1px; /* Give padding so empty spacer span still takes up space */
+}
+
+/* ----------- */
+/* - Content - */
+/* ----------- */
+
+article {
+	float: left;
+	margin: 0 30px;
+}
+
+/* ---------- */
+/* - Footer - */
+/* ---------- */
+
+footer {
+	margin: 30px;
+	width: 920px;
+	border-top-style:ridge;
+	border-top-width:2px;
+	float: left;
+	height: 75px !important;
+	bottom:0px;
+	font-size: 13px;
+	text-align: center;
+}
