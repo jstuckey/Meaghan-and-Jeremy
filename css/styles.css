@@ -3,10 +3,7 @@
 /* ------------- */
 body {
 	font-family: 'Quicksand', 'Helvetica', sans-serif;
-	margin: 0 auto;
 	background-color: #FFF;
-	width: 980px;
-	background:url(../images/Background.png)  no-repeat top center;
 }
 
 html {
@@ -74,18 +71,12 @@ li:hover h2 {
 	margin-right: 15px;
 }
 
-.spacer {
-	width: 98px;
-	padding:1px; /* Give padding so empty spacer span still takes up space */
-}
-
 /* ----------- */
 /* - Content - */
 /* ----------- */
 
 article {
 	float: left;
-	margin: 0 30px;
 }
 
 /* ---------- */
@@ -93,12 +84,10 @@ article {
 /* ---------- */
 
 footer {
-	margin: 30px;
-	width: 920px;
 	border-top-style:ridge;
 	border-top-width:2px;
 	float: left;
-	height: 75px !important;
+	height: 100px !important;
 	bottom:0px;
 	font-size: 13px;
 	text-align: center;
