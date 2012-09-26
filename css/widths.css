@@ -1,0 +1,102 @@
+/* --------------------- */
+/* - Default - Desktop - */
+/* --------------------- */
+
+body {
+	width: 980px;
+	margin: 0 auto;
+	background:url(../images/Background.png)  no-repeat top center;
+}
+
+h1 {
+	font-size:60px;
+	margin: 34px 0 14px;
+}
+
+#imagePanel {
+	width: 780px;
+}
+
+.spacer {
+	width: 98px; /* Remember to substract 2 for left and right padding */
+	padding:1px; /* Give padding so empty spacer span still takes up space */
+}
+
+article {
+	margin: 0 30px;
+}
+
+footer {
+	width: 920px;
+	margin: 30px;
+}
+
+/* -------------------- */
+/* - Tablet Landscape - */
+/* -------------------- */
+
+@media only screen and (max-width: 1024px) {
+	body {
+		/* Mobile browser cannot load the full-size background image */
+		background:url(../images/Background_Tablet_Landscape.png)  no-repeat top center !important;
+	}
+}
+
+/* ---------- */
+/* - Tablet - */
+/* ---------- */
+
+@media only screen and (max-width: 980px) {
+	body {
+		width: 600px !important;
+		background:url(../images/Background_Tablet.png)  no-repeat top center !important;
+	}
+	
+	#imagePanel {
+		width: 520px !important;
+	}
+	
+	.spacer {
+		width: 38px !important; /* Remember to substract 2 for left and right padding */
+		padding:1px !important; /* Give padding so empty spacer span still takes up space */
+	}
+	
+	footer {
+		width: 540px !important;
+	}
+}
+
+/* ---------- */
+/* - Mobile - */
+/* ---------- */
+
+@media only screen and (max-width: 600px) {
+    
+   body {
+		width: 260px !important;
+		background:url(../images/Background_Mobile.png)  no-repeat top center !important;
+	}
+	
+	h1 {
+		font-size:45px;
+		margin: 28px 0 2px;
+	}
+	
+	#imagePanel {
+		width: 260px !important;
+	}
+	
+	.spacer {
+		display: none !important;
+	}
+	
+	article {
+		margin: 0 5px !important;
+	}
+
+	footer {
+		width: 240px !important;
+		margin: 10px !important;
+	}
+   
+}

@@ -1,9 +1,6 @@
-#imagePanel {
-	width: 780px;
-}
-
 li img {
 	position: absolute;
+	border-style: none;
 }
 
 /* ------------------- */
