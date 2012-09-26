@@ -81,6 +81,12 @@ li img {
 	transition: transform .4s ease-out;
 }
 
+#bridegroommask {
+	z-index: 7;
+	bottom: 0px;
+	left: 0px;
+}
+
 #meaghanshead, #meaghanslefteyelash, #meaghansrighteyelash {
 	transition: transform .2s ease-out;
 }
@@ -156,6 +162,12 @@ li:hover #arm {
 	transition: transform .2s ease-in-out;
 }
 
+#bridalpartymask {
+	z-index: 4;
+	bottom: 0px;
+	left: 0px;
+}
+
 li:hover #dress {
 	transform: rotate(25deg);
 }
@@ -186,6 +198,12 @@ li:hover #suit {
 	left: 21px;
 	bottom: 95px;
 	transition: transform 0.3s ease-out;
+}
+
+#registriesmask {
+	z-index: 4;
+	bottom: 0px;
+	left: 0px;
 }
 
 li:hover #gift {
@@ -235,6 +253,12 @@ li:hover #bow {
 	z-index: 6;
 	bottom: 54px;
 	left: 63px;
+}
+
+#servicemask {
+	z-index: 7;
+	bottom: 0px;
+	left: 0px;
 }
 
 #church, #hall {
