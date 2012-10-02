@@ -10,7 +10,12 @@ body {
 
 h1 {
 	font-size:60px;
-	margin: 34px 0 14px;
+	margin: 34px 0 5px;
+}
+
+h2 {
+	font-size:35px;
+	margin: 5px 0 10px;
 }
 
 #imagePanel {
@@ -19,7 +24,7 @@ h1 {
 
 .spacer {
 	width: 98px; /* Remember to substract 2 for left and right padding */
-	padding:1px; /* Give padding so empty spacer span still takes up space */
+	padding:1px; /* Give padding so empty spacer div still takes up space */
 }
 
 article {
@@ -80,6 +85,11 @@ footer {
 	h1 {
 		font-size:45px;
 		margin: 28px 0 2px;
+	}
+	
+	h2 {
+		font-size:25px;
+		margin: 2px 0 2px;
 	}
 	
 	#imagePanel {
