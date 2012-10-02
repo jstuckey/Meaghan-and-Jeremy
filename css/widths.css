@@ -5,7 +5,9 @@
 body {
 	width: 980px;
 	margin: 0 auto;
-	background:url(../images/Background.png)  no-repeat top center;
+	background-image: url(../images/Background_Top.png), url(../images/Background.png);
+	background-repeat: no-repeat, repeat-y;
+	background-position: center top, center top; 
 }
 
 h1 {
@@ -36,17 +38,6 @@ footer {
 	margin: 30px;
 }
 
-/* -------------------- */
-/* - Tablet Landscape - */
-/* -------------------- */
-
-@media only screen and (max-width: 1024px) {
-	body {
-		/* Mobile browser cannot load the full-size background image */
-		background:url(../images/Background_Tablet_Landscape.png)  no-repeat top center !important;
-	}
-}
-
 /* ---------- */
 /* - Tablet - */
 /* ---------- */
@@ -54,7 +45,7 @@ footer {
 @media only screen and (max-width: 980px) {
 	body {
 		width: 600px !important;
-		background:url(../images/Background_Tablet.png)  no-repeat top center !important;
+		background-image: url(../images/Background_Top_Tablet.png), url(../images/Background_Tablet.png) !important;
 	}
 	
 	#imagePanel {
@@ -79,7 +70,7 @@ footer {
     
    body {
 		width: 260px !important;
-		background:url(../images/Background_Mobile.png)  no-repeat top center !important;
+		background-image: url(../images/Background_Top_Mobile.png), url(../images/Background_Mobile.png) !important;
 	}
 	
 	h1 {
