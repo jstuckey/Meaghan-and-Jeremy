@@ -20,11 +20,12 @@ header a, header a:hover, header a:visited {
 	color: #000;
 }
 
-h1 {
+h1, h2 {
 	font-family: 'Euphoria Script', cursive;
 	color: #053055;
 	text-align: center;
 }
+
 
 /* -------------- */
 /* - Navigation - */
@@ -34,24 +35,23 @@ nav div {
 	float: left;
 }
 
-ul {
+nav ul {
 	list-style:none;
 	padding: 0;
 	margin: 0;
 }
 
-li {
+nav li {
 	float:left;	
 	width: 250px;
 	height: 250px;
 	margin: 5px;
-/*	background-color: #333;*/
 	background-color: #053055;
 	position: relative;
 	overflow: hidden;
 }
 
-li h2 {
+li h3 {
 	font-size: 28px;
 	font-weight: bold;
 	color: #FFF;
@@ -65,7 +65,7 @@ li h2 {
 	z-index: 99;
 }
 
-li:hover h2 {
+li:hover h3 {
 	margin-right: 15px;
 }
 
@@ -76,6 +76,39 @@ li:hover h2 {
 article {
 	float: left;
 }
+
+blockquote {
+	margin: 19px 0;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+	text-align: center;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+h5, h6 {
+	clear: both;
+}
+
+article img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+article section > *:nth-child(4n+5) img {
+	float: right;
+}
+
+
 
 /* ---------- */
 /* - Footer - */
