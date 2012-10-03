@@ -5,7 +5,7 @@
 body {
 	width: 980px;
 	margin: 0 auto;
-	background-image: url(../images/Background_Top.png), url(../images/Background.png);
+	background-image: url(../images/backgrounds/Background_Top.png), url(../images/backgrounds/Background.png);
 	background-repeat: no-repeat, repeat-y;
 	background-position: center top, center top; 
 }
@@ -45,7 +45,7 @@ footer {
 @media only screen and (max-width: 980px) {
 	body {
 		width: 600px !important;
-		background-image: url(../images/Background_Top_Tablet.png), url(../images/Background_Tablet.png) !important;
+		background-image: url(../images/backgrounds/Background_Top_Tablet.png), url(../images/backgrounds/Background_Tablet.png) !important;
 	}
 	
 	#imagePanel {
@@ -70,7 +70,7 @@ footer {
     
    body {
 		width: 260px !important;
-		background-image: url(../images/Background_Top_Mobile.png), url(../images/Background_Mobile.png) !important;
+		background-image: url(../images/backgrounds/Background_Top_Mobile.png), url(../images/backgrounds/Background_Mobile.png) !important;
 	}
 	
 	h1 {
