@@ -6,5 +6,5 @@ function clickedPanel(panelName) {
 }
 
 function scrollToArticle() {
-     $('html,body').animate({scrollTop: $("#article").offset().top}, 200);
+     $('html,body').animate({scrollTop: $("article").offset().top}, 200);
 }
