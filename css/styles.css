@@ -77,38 +77,42 @@ article {
 	float: left;
 }
 
+article h1, article h2, article h3 {
+	font-family: 'Quicksand', 'Helvetica', sans-serif;
+	clear: both;
+}
+
+article h1 {
+	font-size: 20px;
+}
+
+article h2 {
+	font-size: 18px;
+	text-align: left;
+}
+
+article h3 {
+	font-size: 16px;
+}
+
 blockquote {
 	margin: 19px 0;
 }
 
-h4 {
-	font-size: 20px;
-}
-
-h5 {
-	font-size: 18px;
-	text-align: center;
-}
-
-h6 {
-	font-size: 16px;
-}
-
-h5, h6 {
-	clear: both;
-}
-
-article section img {
+.bridalparty img {
 	width: 200px;
 	height: 200px;
 	float: left;
 }
 
-article section > *:nth-child(4n+5) img {
+.bridalparty > *:nth-child(4n+5) img {
 	float: right;
 }
 
-
+#engagementphotos a {
+	float: left;
+	margin: 2px;   
+}
 
 /* ---------- */
 /* - Footer - */
