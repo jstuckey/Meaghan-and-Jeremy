@@ -7,18 +7,20 @@
     <link href="css/images.css" rel="stylesheet">
     <link href="css/lightbox.css" rel="stylesheet" />
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href='http://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Euphoria+Script' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
     <!--[if lte IE 8]>
+    	<link href="css/ieStyles.css" rel="stylesheet" />
 		<script type="text/javascript" src="/scripts/html5shiv.js"></script>
 	<![endif]-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-	<script type="text/javascript" src="scripts/prefixfree.min.js"></script>
-	<script type="text/javascript" src="scripts/lightbox.js"></script>
-	<script type="text/javascript" src="scripts/main.js"></script>
+	
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="scripts/prefixfree.min.js"></script>
+	<script src="scripts/lightbox.js"></script>
+	<script src="scripts/main.js"></script>
 	
 	<header>
 		<hgroup>
@@ -27,100 +29,96 @@
 		    	<h2>July 20, 2013</h2>
 			</a>
 		</hgroup>
-	    <nav>
-	    	<div class="spacer"></div>
-	    	<div id="imagePanel">
-		        <ul>
-		        	<a href="javascript:clickedPanel('brideandgroom')">
-			        	<li>
-			        		<h3>Bride and Groom</h3>
-			        		<img src="images/illustrations/ClearMask.png" id="bridegroommask" />
-							<img src="images/illustrations/BrideGroomBackground.png" id="brideandgroom" />
-							<img src="images/illustrations/MeaghansHead.png" id="meaghanshead" />
-							<img src="images/illustrations/MeaghansLeftEye.png" id="meaghanslefteye" />
-							<img src="images/illustrations/MeaghansRightEye.png" id="meaghansrighteye" />
-							<img src="images/illustrations/MeaghansLeftEyelash.png" id="meaghanslefteyelash" />
-							<img src="images/illustrations/MeaghansRightEyelash.png" id="meaghansrighteyelash" />
-							<img src="images/illustrations/JeremysHead.png" id="jeremyshead" />
-							<img src="images/illustrations/JeremysLeftEye.png" id="jeremyslefteye" />
-							<img src="images/illustrations/JeremysRightEye.png" id="jeremysrighteye" />
-							<img src="images/illustrations/JeremysLeftEyelash.png" id="jeremyslefteyelash" />
-							<img src="images/illustrations/JeremysRightEyelash.png" id="jeremysrighteyelash" />
-							<img src="images/illustrations/Arm.png" id="arm" />
-						</li>
-					</a>
-					<a href="javascript:clickedPanel('bridalparty')"> 
-						<li>
-			        		<h3>Bridal Party</h3>
-			        		<img src="images/illustrations/ClearMask.png" id="bridalpartymask" />
-			        		<img src="images/illustrations/Dress.png" id="dress" />
-			        		<img src="images/illustrations/Suit.png" id="suit" />
-			        		<img src="images/illustrations/BridalPatyBackground.png" id="bridalpartyfloor" />
-						</li>
-					</a>
-					<a href="javascript:clickedPanel('registries')">
-			        	<li>
-			        		<h3>Registries</h3>
-			        		<img src="images/illustrations/ClearMask.png" id="registriesmask" />
-			        		<img src="images/illustrations/Bow.png" id="bow" />
-			        		<img src="images/illustrations/Gift.png" id="gift" />
-			        		<img src="images/illustrations/RegistriesBackground.png" id="registriesfloor" />
-						</li>
-					</a>
-					<a href="javascript:clickedPanel('service')">
-						<li>
-			        		<h3>Service</h3>
-			        		<img src="images/illustrations/ClearMask.png" id="servicemask" />
-			        		<img src="images/illustrations/Church.png" id="church" />
-			        		<img src="images/illustrations/Hall.png" id="hall" />
-			        		<img src="images/illustrations/Tree1.png" id="tree1" />
-			        		<img src="images/illustrations/Tree2.png" id="tree2" />
-			        		<img src="images/illustrations/Bush1.png" id="bush1" />
-			        		<img src="images/illustrations/ServiceBackground.png" id="servicebackground" />
-						</li>
-					</a>
-					<a href="javascript:clickedPanel('reception')">
-						<li>
-			        		<h3>Reception</h3>
-			        		<img src="images/illustrations/ReceptionMask.png" id="receptionmask" />
-			        		<img src="images/illustrations/Boat.png" id="boat" />
-			        		<img src="images/illustrations/Pier.png" id="pier" />
-			        		<img src="images/illustrations/PlantLeft.png" id="plantleft" />
-			        		<img src="images/illustrations/PlantRight.png" id="plantright" />
-			        		<img src="images/illustrations/Water1.png" id="water1" />
-			        		<img src="images/illustrations/Bubbles.png" id="bubbles" />
-			        		<img src="images/illustrations/Sky1.png" id="sky1" />
-			        		<img src="images/illustrations/Clouds1.png" id="clouds1" />
-			        		<img src="images/illustrations/Clouds2.png" id="clouds2" />
-			        		<img src="images/illustrations/AlterTop.png" id="altertop" />
-						</li>
-					</a>
-					<a href="javascript:clickedPanel('accomodations')">
-						<li>
-			        		<h3>Accomodations</h3>
-			        		<img src="images/illustrations/AccomodationMask.png" id="accomodationmask" /> 
-							<img src="images/illustrations/Beach.png" id="beach" />
-							<img src="images/illustrations/Bush2.png" id="bush2" />
-							<img src="images/illustrations/Bush3.png" id="bush3" />
-							<img src="images/illustrations/Bush4.png" id="bush4" />
-							<img src="images/illustrations/Chairs.png" id="chairs" />
-							<img src="images/illustrations/Sky2.png" id="sky2" />
-							<img src="images/illustrations/Water2.png" id="water2" />
-							<img src="images/illustrations/Water3.png" id="water3" />
-							<img src="images/illustrations/Water4.png" id="water4" />
-							<img src="images/illustrations/Clouds3.png" id="clouds3" />
-							<img src="images/illustrations/Hotel.png" id="hotel" />
-							<img src="images/illustrations/PalmTreeTop.png" id="palmtreetop" />
-							<img src="images/illustrations/PalmTreeTrunk.png" id="palmtreetrunk" />
-						</li>
-					</a>
-	        	</ul>
-	        </div>	
-        	<div class="spacer"></div>
+	    <nav id="imagePanel">
+	        <ul>
+	        	<a href="javascript:clickedPanel('brideandgroom')">
+		        	<li>
+		        		<h3>Bride and Groom</h3>
+		        		<img src="images/illustrations/ClearMask.png" id="bridegroommask" />
+						<img src="images/illustrations/BrideGroomBackground.png" id="brideandgroom" />
+						<img src="images/illustrations/MeaghansHead.png" id="meaghanshead" />
+						<img src="images/illustrations/MeaghansLeftEye.png" id="meaghanslefteye" />
+						<img src="images/illustrations/MeaghansRightEye.png" id="meaghansrighteye" />
+						<img src="images/illustrations/MeaghansLeftEyelash.png" id="meaghanslefteyelash" />
+						<img src="images/illustrations/MeaghansRightEyelash.png" id="meaghansrighteyelash" />
+						<img src="images/illustrations/JeremysHead.png" id="jeremyshead" />
+						<img src="images/illustrations/JeremysLeftEye.png" id="jeremyslefteye" />
+						<img src="images/illustrations/JeremysRightEye.png" id="jeremysrighteye" />
+						<img src="images/illustrations/JeremysLeftEyelash.png" id="jeremyslefteyelash" />
+						<img src="images/illustrations/JeremysRightEyelash.png" id="jeremysrighteyelash" />
+						<img src="images/illustrations/Arm.png" id="arm" />
+					</li>
+				</a>
+				<a href="javascript:clickedPanel('bridalparty')"> 
+					<li>
+		        		<h3>Bridal Party</h3>
+		        		<img src="images/illustrations/ClearMask.png" id="bridalpartymask" />
+		        		<img src="images/illustrations/Dress.png" id="dress" />
+		        		<img src="images/illustrations/Suit.png" id="suit" />
+		        		<img src="images/illustrations/BridalPatyBackground.png" id="bridalpartyfloor" />
+					</li>
+				</a>
+				<a href="javascript:clickedPanel('registries')">
+		        	<li>
+		        		<h3>Registries</h3>
+		        		<img src="images/illustrations/ClearMask.png" id="registriesmask" />
+		        		<img src="images/illustrations/Bow.png" id="bow" />
+		        		<img src="images/illustrations/Gift.png" id="gift" />
+		        		<img src="images/illustrations/RegistriesBackground.png" id="registriesfloor" />
+					</li>
+				</a>
+				<a href="javascript:clickedPanel('service')">
+					<li>
+		        		<h3>Service</h3>
+		        		<img src="images/illustrations/ClearMask.png" id="servicemask" />
+		        		<img src="images/illustrations/Church.png" id="church" />
+		        		<img src="images/illustrations/Hall.png" id="hall" />
+		        		<img src="images/illustrations/Tree1.png" id="tree1" />
+		        		<img src="images/illustrations/Tree2.png" id="tree2" />
+		        		<img src="images/illustrations/Bush1.png" id="bush1" />
+		        		<img src="images/illustrations/ServiceBackground.png" id="servicebackground" />
+					</li>
+				</a>
+				<a href="javascript:clickedPanel('reception')">
+					<li>
+		        		<h3>Reception</h3>
+		        		<img src="images/illustrations/ReceptionMask.png" id="receptionmask" />
+		        		<img src="images/illustrations/Boat.png" id="boat" />
+		        		<img src="images/illustrations/Pier.png" id="pier" />
+		        		<img src="images/illustrations/PlantLeft.png" id="plantleft" />
+		        		<img src="images/illustrations/PlantRight.png" id="plantright" />
+		        		<img src="images/illustrations/Water1.png" id="water1" />
+		        		<img src="images/illustrations/Bubbles.png" id="bubbles" />
+		        		<img src="images/illustrations/Sky1.png" id="sky1" />
+		        		<img src="images/illustrations/Clouds1.png" id="clouds1" />
+		        		<img src="images/illustrations/Clouds2.png" id="clouds2" />
+		        		<img src="images/illustrations/AlterTop.png" id="altertop" />
+					</li>
+				</a>
+				<a href="javascript:clickedPanel('accomodations')">
+					<li>
+		        		<h3>Accomodations</h3>
+		        		<img src="images/illustrations/AccomodationMask.png" id="accomodationmask" /> 
+						<img src="images/illustrations/Beach.png" id="beach" />
+						<img src="images/illustrations/Bush2.png" id="bush2" />
+						<img src="images/illustrations/Bush3.png" id="bush3" />
+						<img src="images/illustrations/Bush4.png" id="bush4" />
+						<img src="images/illustrations/Chairs.png" id="chairs" />
+						<img src="images/illustrations/Sky2.png" id="sky2" />
+						<img src="images/illustrations/Water2.png" id="water2" />
+						<img src="images/illustrations/Water3.png" id="water3" />
+						<img src="images/illustrations/Water4.png" id="water4" />
+						<img src="images/illustrations/Clouds3.png" id="clouds3" />
+						<img src="images/illustrations/Hotel.png" id="hotel" />
+						<img src="images/illustrations/PalmTreeTop.png" id="palmtreetop" />
+						<img src="images/illustrations/PalmTreeTrunk.png" id="palmtreetrunk" />
+					</li>
+				</a>
+        	</ul>
 	    </nav>
 	</header>
 	
-	<article role="main" id="article" >
+	<article role="main" >
 		<!-- Placeholder element so first load animation will work -->
 		<p> </p>
 	</article>
