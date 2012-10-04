@@ -21,12 +21,15 @@ h2 {
 }
 
 #imagePanel {
+	/* (980  - (250 * 3 + 5 * 6)) / 2 */
 	width: 780px;
+	margin: 0 100px;
 }
 
-.spacer {
-	width: 98px; /* Remember to substract 2 for left and right padding */
-	padding:1px; /* Give padding so empty spacer div still takes up space */
+#engagementphotos {
+	/* (980 - 30 * 2 - (225 * 4 + 2 * 8)) / 2 */
+	width: 916px;
+	margin: 0 2px;
 }
 
 article {
@@ -49,12 +52,15 @@ footer {
 	}
 	
 	#imagePanel {
+		/* (600  - (250 * 2 + 5 * 4)) / 2 */
 		width: 520px !important;
+		margin: 0 40px !important;
 	}
 	
-	.spacer {
-		width: 38px !important; /* Remember to substract 2 for left and right padding */
-		padding:1px !important; /* Give padding so empty spacer span still takes up space */
+	#engagementphotos {
+		/* (600 - 30 * 2 - (225 * 2 + 2 * 4)) / 2 */
+		width: 458px !important;
+		margin: 0 41px !important;
 	}
 	
 	footer {
@@ -84,11 +90,15 @@ footer {
 	}
 	
 	#imagePanel {
+		/* (260  - (250 * 1 + 5 * 2)) / 2 */
 		width: 260px !important;
+		margin: 0 !important;
 	}
 	
-	.spacer {
-		display: none !important;
+	#engagementphotos {
+		/* (260 - 5 * 2 - (225 * 1 + 2 * 2)) / 2 */
+		width: 229px !important;
+		margin: 0 10.5px !important;
 	}
 	
 	article {
@@ -98,6 +108,13 @@ footer {
 	footer {
 		width: 240px !important;
 		margin: 10px !important;
+	}
+	
+	.lb-container {
+		padding-top: 4px !important;
+		padding-right: 4px !important;
+		padding-bottom: 4px !important;
+		padding-left: 4px !important;
 	}
    
 }
