@@ -98,7 +98,7 @@ h5, h6 {
 	clear: both;
 }
 
-article img {
+article section img {
 	width: 200px;
 	height: 200px;
 	float: left;
@@ -118,7 +118,7 @@ footer {
 	border-top-style:ridge;
 	border-top-width:2px;
 	float: left;
-	height: 100px !important;
+	height: 150px !important;
 	bottom:0px;
 	font-size: 13px;
 	text-align: center;
