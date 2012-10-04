@@ -87,7 +87,8 @@ lightbox = new Lightbox options
         _this = this;
       $("<div>", {
         id: 'lightboxOverlay'
-      }).after($('<div/>', {
+      }).appendTo($('body'));
+      $('<div/>', {
         id: 'lightbox'
       }).append($('<div/>', {
         "class": 'lb-outerContainer'
@@ -123,7 +124,7 @@ lightbox = new Lightbox options
         "class": 'lb-close'
       }).append($('<img/>', {
         src: this.options.fileCloseImage
-      }))))))).appendTo($('body'));
+      })))))).appendTo($('body'));
       $('#lightboxOverlay').hide().on('click', function(e) {
         _this.end();
         return false;
@@ -214,7 +215,7 @@ lightbox = new Lightbox options
     };
 
     Lightbox.prototype.sizeContainer = function(imageWidth, imageHeight) {
-      var $container, $lightbox, $outerContainer, containerBottomPadding, containerLeftPadding, containerRightPadding, containerTopPadding, newHeight, newWidth, oldHeight, oldWidth,
+      var $container, $lightbox, $outerContainer, containerBottomPadding, containerLeftPadding, containerRightPadding, containerTopPadding, newHeight, newWidth, oldHeight, oldWidth, windowWidth,
         _this = this;
       $lightbox = $('#lightbox');
       $outerContainer = $lightbox.find('.lb-outerContainer');
@@ -227,6 +228,16 @@ lightbox = new Lightbox options
       containerLeftPadding = parseInt($container.css('padding-left'), 10);
       newWidth = imageWidth + containerLeftPadding + containerRightPadding;
       newHeight = imageHeight + containerTopPadding + containerBottomPadding;
+      
+      windowWidth = $(window).width();
+      if (newWidth > windowWidth) {
+          newHeight = newHeight * windowWidth / newWidth;
+          newWidth = windowWidth;
+          
+          $lightbox.find('.lb-image').width(newWidth - containerLeftPadding - containerRightPadding);
+          $lightbox.find('.lb-image').height(newHeight - containerTopPadding - containerBottomPadding);
+      }
+      
       if (newWidth !== oldWidth && newHeight !== oldHeight) {
         $outerContainer.animate({
           width: newWidth,
