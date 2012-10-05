@@ -83,7 +83,15 @@ article h1, article h2, article h3 {
 }
 
 article h1 {
-	font-size: 20px;
+	font-size: 22px;
+}
+
+article h1:before {
+	content: '-';
+}
+
+article h1:after {
+	content: '-';
 }
 
 article h2 {
@@ -111,7 +119,9 @@ blockquote {
 
 #engagementphotos a {
 	float: left;
-	margin: 2px;   
+	margin: 2px;
+	width: 225px;
+	height: 150px;
 }
 
 /* ---------- */
