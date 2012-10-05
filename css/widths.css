@@ -26,14 +26,15 @@ h2 {
 	margin: 0 100px;
 }
 
+article {
+	width: 920px;
+	margin: 0 30px;
+}
+
 #engagementphotos {
 	/* (980 - 30 * 2 - (225 * 4 + 2 * 8)) / 2 */
 	width: 916px;
 	margin: 0 2px;
-}
-
-article {
-	margin: 0 30px;
 }
 
 footer {
@@ -55,6 +56,10 @@ footer {
 		/* (600  - (250 * 2 + 5 * 4)) / 2 */
 		width: 520px !important;
 		margin: 0 40px !important;
+	}
+	
+	article {
+		width: 540px !important;
 	}
 	
 	#engagementphotos {
@@ -95,14 +100,15 @@ footer {
 		margin: 0 !important;
 	}
 	
+	article {
+		width: 250px !important;
+		margin: 0 5px !important;
+	}
+	
 	#engagementphotos {
 		/* (260 - 5 * 2 - (225 * 1 + 2 * 2)) / 2 */
 		width: 229px !important;
 		margin: 0 10.5px !important;
-	}
-	
-	article {
-		margin: 0 5px !important;
 	}
 
 	footer {
