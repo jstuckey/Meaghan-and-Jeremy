@@ -107,23 +107,6 @@ blockquote {
 	margin: 19px 0;
 }
 
-.bridalparty img {
-	width: 200px;
-	height: 200px;
-	float: left;
-}
-
-.bridalparty > *:nth-child(4n+5) img {
-	float: right;
-}
-
-#engagementphotos a {
-	float: left;
-	margin: 2px;
-	width: 225px;
-	height: 150px;
-}
-
 /* ---------- */
 /* - Footer - */
 /* ---------- */
