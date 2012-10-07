@@ -1,0 +1,28 @@
+.bridalparty img {
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.bridalparty > div:nth-child(even) {
+	float: right;
+}
+
+.imagewrapper {
+	margin: 5px;	
+}
+
+.imagewrapper:hover .formalimage, .whimsicalimage {
+	display: none;
+}
+
+.imagewrapper:hover .whimsicalimage, .formalimage {
+	display: block;
+}
+
+#engagementphotos a {
+	float: left;
+	margin: 2px;
+	width: 225px;
+	height: 150px;
+}
