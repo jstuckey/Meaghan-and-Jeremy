@@ -8,8 +8,12 @@
 	float: right;
 }
 
-.imagewrapper {
-	margin: 5px;	
+.bridalparty img {
+	margin: 0 10px 10px;	
+}
+
+.bridalparty h3 {
+	margin-top: 20px;
 }
 
 .imagewrapper:hover .formalimage, .whimsicalimage {
