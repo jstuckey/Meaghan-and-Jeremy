@@ -152,6 +152,14 @@ footer {
 		margin: 0 10.5px !important;
 	}
 	
+	.imagewrapper {
+		margin: 0 25px !important;
+	}
+	
+	.bridalparty h3 {
+		text-align: center !important;
+	}
+	
 	#registryphotos, #registryphotos img {
 		/* (260 - 5 * 2 - (250 * 1 + 2 * 2)) / 2 */
 		margin: 2px 0 !important;
