@@ -1,3 +1,6 @@
+/* ------------------- */
+/* - Bride and Groom - */
+/* ------------------- */
 #engagementphotos a {
 	float: left;
 	margin: 2px;
@@ -5,33 +8,69 @@
 	height: 150px;
 }
 
-.bridalparty img {
+/* ---------------- */
+/* - Bridal Party - */
+/* ---------------- */
+
+.bio {
+	display: block;
+	clear: both;
+	margin: 40px 0;	
+}
+
+.bridalparty h3 {
+	margin: 0 0 10px;
+}
+
+.bridalparty p {
+	margin: 0;
+}
+
+.imagewrapper {
 	width: 200px;
 	height: 200px;
 	margin: 0 10px 10px 0;
+	position: relative;	
 	float: left;
 }
 
-.bridalparty > div:nth-child(odd) {
+.bridalparty > div:nth-child(odd) > .imagewrapper {
 	margin: 0 0 10px 10px;
 	float: right;
 }
 
-.bridalparty h3 {
-	margin-top: 0 20px 20px;
+.bridalparty img {
+	width: 200px;
+	height: 200px;
+	border-style: none;
 }
 
-.bridalparty h3:nth-child(even) {
-	clear: left;
+.formalimage, .whimsicalimage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: opacity .2s ease-out;
+}
+
+.formalimage {
+	z-index: 1;
+}
+
+.whimsicalimage {
+	z-index: 0;
 }
 
 .imagewrapper:hover .formalimage, .whimsicalimage {
-	display: none;
+	opacity: 0;
 }
 
 .imagewrapper:hover .whimsicalimage, .formalimage {
-	display: block;
+	opacity: 1;
 }
+
+/* -------------- */
+/* - Registries - */
+/* -------------- */
 
 blockquote {
 	margin: 19px 0;
@@ -43,6 +82,10 @@ blockquote {
 	float: left;
 	margin: 2px;
 }
+
+/* ------------------------- */
+/* - Service and Reception - */
+/* ------------------------- */
 
 .address {
 	margin-left: 20px;
