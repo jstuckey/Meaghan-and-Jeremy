@@ -79,6 +79,9 @@ article {
 
 article h1, article h2, article h3 {
 	font-family: 'Quicksand', 'Helvetica', sans-serif;
+}
+
+article h1, article h2 {
 	clear: both;
 }
 
@@ -101,10 +104,6 @@ article h2 {
 
 article h3 {
 	font-size: 16px;
-}
-
-blockquote {
-	margin: 19px 0;
 }
 
 /* ---------- */

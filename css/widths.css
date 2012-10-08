@@ -37,6 +37,29 @@ article {
 	margin: 0 2px;
 }
 
+#registryphotos {
+	/* (980 - 30 * 2 - (250 * 3 + 2 * 6)) / 2 */
+	margin: 0 79px;
+}
+
+#registryphotos div{
+	/* (980 - 30 * 2 - (250 * 2 + 2 * 4) - 79 * 2) / 2 */
+	margin: 0 127px;
+}
+
+.map, .map iframe {
+	width:650px;
+	height: 550px;
+}
+
+.map {
+	margin: 20px 135px;
+}
+
+.map > a {
+	display: none;
+}
+
 footer {
 	width: 920px;
 	margin: 30px;
@@ -66,6 +89,24 @@ footer {
 		/* (600 - 30 * 2 - (225 * 2 + 2 * 4)) / 2 */
 		width: 458px !important;
 		margin: 0 41px !important;
+	}
+	
+	#registryphotos {
+		/* (600 - 30 * 2 - (250 * 2 + 2 * 4)) / 2 */
+		margin: 0 16px !important;
+	}
+	
+	#registryphotos div{
+		margin: 0 !important;
+	}
+	
+	.map, .map iframe {
+		width:540px !important;
+		height: 450px !important;
+	}
+	
+	.map {
+		margin: 20px 0 !important;
 	}
 	
 	footer {
@@ -109,6 +150,23 @@ footer {
 		/* (260 - 5 * 2 - (225 * 1 + 2 * 2)) / 2 */
 		width: 229px !important;
 		margin: 0 10.5px !important;
+	}
+	
+	#registryphotos, #registryphotos img {
+		/* (260 - 5 * 2 - (250 * 1 + 2 * 2)) / 2 */
+		margin: 2px 0 !important;
+	}
+	
+	#registryphotos div{
+		margin: 0 !important;
+	}
+	
+	.map iframe, .map small {
+		display: none !important;
+	}
+	
+	.map > a {
+		display: block !important;
 	}
 
 	footer {

@@ -1,19 +1,28 @@
+#engagementphotos a {
+	float: left;
+	margin: 2px;
+	width: 225px;
+	height: 150px;
+}
+
 .bridalparty img {
 	width: 200px;
 	height: 200px;
+	margin: 0 10px 10px 0;
 	float: left;
 }
 
-.bridalparty > div:nth-child(even) {
+.bridalparty > div:nth-child(odd) {
+	margin: 0 0 10px 10px;
 	float: right;
 }
 
-.bridalparty img {
-	margin: 0 10px 10px;	
+.bridalparty h3 {
+	margin-top: 0 20px 20px;
 }
 
-.bridalparty h3 {
-	margin-top: 20px;
+.bridalparty h3:nth-child(even) {
+	clear: left;
 }
 
 .imagewrapper:hover .formalimage, .whimsicalimage {
@@ -24,9 +33,21 @@
 	display: block;
 }
 
-#engagementphotos a {
+blockquote {
+	margin: 19px 0;
+	padding-left: 10px;
+	border-left: 4px solid #053055;
+}
+
+#registryphotos img {
 	float: left;
 	margin: 2px;
-	width: 225px;
-	height: 150px;
+}
+
+.address {
+	margin-left: 20px;
+}
+
+.address span {
+	display: block;
 }
