@@ -8,6 +8,13 @@
 	height: 150px;
 }
 
+#engagementphotos h2 + a {
+	display: block;
+	float: none;
+	height: auto;
+	width: auto;
+}
+
 /* ---------------- */
 /* - Bridal Party - */
 /* ---------------- */
