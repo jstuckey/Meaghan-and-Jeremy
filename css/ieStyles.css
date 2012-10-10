@@ -1,0 +1,6 @@
+body {
+	/* IE 8 and below does not support multiple background images */
+	background-image: url(../images/backgrounds/Background.png);
+	background-repeat: repeat-y;
+	background-position: center top; 
+}

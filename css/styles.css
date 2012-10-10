@@ -77,38 +77,34 @@ article {
 	float: left;
 }
 
-blockquote {
-	margin: 19px 0;
+article h1, article h2, article h3 {
+	font-family: 'Quicksand', 'Helvetica', sans-serif;
 }
 
-h4 {
-	font-size: 20px;
-}
-
-h5 {
-	font-size: 18px;
-	text-align: center;
-}
-
-h6 {
-	font-size: 16px;
-}
-
-h5, h6 {
+article h1, article h2 {
 	clear: both;
 }
 
-article img {
-	width: 100px;
-	height: 100px;
-	float: left;
+article h1 {
+	font-size: 22px;
 }
 
-article section > *:nth-child(4n+5) img {
-	float: right;
+article h1:before {
+	content: '-';
 }
 
+article h1:after {
+	content: '-';
+}
 
+article h2 {
+	font-size: 18px;
+	text-align: left;
+}
+
+article h3 {
+	font-size: 16px;
+}
 
 /* ---------- */
 /* - Footer - */
@@ -118,7 +114,7 @@ footer {
 	border-top-style:ridge;
 	border-top-width:2px;
 	float: left;
-	height: 100px !important;
+	height: 150px !important;
 	bottom:0px;
 	font-size: 13px;
 	text-align: center;
