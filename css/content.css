@@ -1,0 +1,96 @@
+/* ------------------- */
+/* - Bride and Groom - */
+/* ------------------- */
+#engagementphotos a {
+	float: left;
+	margin: 2px;
+	width: 225px;
+	height: 150px;
+}
+
+/* ---------------- */
+/* - Bridal Party - */
+/* ---------------- */
+
+.bio {
+	display: block;
+	clear: both;
+	margin: 40px 0;	
+}
+
+.bridalparty h3 {
+	margin: 0 0 10px;
+}
+
+.bridalparty p {
+	margin: 0;
+}
+
+.imagewrapper {
+	width: 200px;
+	height: 200px;
+	margin: 0 10px 10px 0;
+	position: relative;	
+	float: left;
+}
+
+.bridalparty > div:nth-child(odd) > .imagewrapper {
+	margin: 0 0 10px 10px;
+	float: right;
+}
+
+.bridalparty img {
+	width: 200px;
+	height: 200px;
+	border-style: none;
+}
+
+.formalimage, .whimsicalimage {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: opacity .2s ease-out;
+}
+
+.formalimage {
+	z-index: 1;
+}
+
+.whimsicalimage {
+	z-index: 0;
+}
+
+.imagewrapper:hover .formalimage, .whimsicalimage {
+	opacity: 0;
+}
+
+.imagewrapper:hover .whimsicalimage, .formalimage {
+	opacity: 1;
+}
+
+/* -------------- */
+/* - Registries - */
+/* -------------- */
+
+blockquote {
+	margin: 19px 0;
+	padding-left: 10px;
+	border-left: 4px solid #053055;
+}
+
+#registryphotos img {
+	float: left;
+	margin: 2px;
+}
+
+/* ------------------------- */
+/* - Service and Reception - */
+/* ------------------------- */
+
+.address {
+	margin-left: 20px;
+}
+
+.address span {
+	display: block;
+}
