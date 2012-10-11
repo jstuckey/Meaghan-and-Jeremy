@@ -11,6 +11,10 @@ html {
 	-webkit-font-smoothing: antialiased; 
 }
 
+img {
+	border-style: none;
+}
+
 /* ---------- */
 /* - Header - */
 /* ---------- */
