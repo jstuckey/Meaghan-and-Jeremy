@@ -169,6 +169,12 @@ footer {
 		margin: 0 !important;
 	}
 	
+	.map {
+		width: 250px !important;
+		height: 50px !important;
+		margin: 0 !important;
+	}
+	
 	.map iframe, .map small {
 		display: none !important;
 	}
