@@ -46,6 +46,10 @@
 	float: right;
 }
 
+.bridalparty > div:nth-child(odd) > h3 {
+	text-align: right;
+}
+
 .bridalparty img {
 	width: 200px;
 	height: 200px;
