@@ -26,7 +26,7 @@
 }
 
 .bridalparty h3 {
-	margin: 0 0 10px;
+	margin: 0 0 6px;
 }
 
 .bridalparty p {
@@ -44,6 +44,10 @@
 .bridalparty > div:nth-child(odd) > .imagewrapper {
 	margin: 0 0 10px 10px;
 	float: right;
+}
+
+.bridalparty > div:nth-child(odd) > h3 {
+	text-align: right;
 }
 
 .bridalparty img {
