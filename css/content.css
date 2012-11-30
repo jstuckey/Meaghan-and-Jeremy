@@ -104,3 +104,8 @@ blockquote {
 .address span {
 	display: block;
 }
+
+#servicephotos img {
+	vertical-align: bottom;
+}
+

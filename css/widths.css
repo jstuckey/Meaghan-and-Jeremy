@@ -48,16 +48,28 @@ article {
 }
 
 .map, .map iframe {
-	width:650px;
+	width: 920px;
 	height: 550px;
 }
 
 .map {
-	margin: 20px 135px;
+	margin: 20px 0;
 }
 
 .map > a {
 	display: none;
+}
+
+#servicephotos img:first-child {
+	width: 576px;
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+#servicephotos img:last-child {
+	width: 324px;
+	margin: 0 0 0 10px;
+	clear: both;
 }
 
 footer {
@@ -107,6 +119,14 @@ footer {
 	
 	.map {
 		margin: 20px 0 !important;
+	}
+	
+	#servicephotos img:first-child {
+		width: 333px !important;
+	}
+	
+	#servicephotos img:last-child {
+		width: 187px  !important;
 	}
 	
 	footer {
@@ -181,6 +201,18 @@ footer {
 	
 	.map > a {
 		display: block !important;
+		text-align: center !important;
+	}
+	
+	#servicephotos img:first-child {
+		width: 250px !important;
+		margin: 0 0 8px !important;
+		float: none !important;
+	}
+	
+	#servicephotos img:last-child {
+		width: 250px  !important;
+		margin: 8px 0 !important;
 	}
 
 	footer {
