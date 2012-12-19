@@ -15,6 +15,27 @@
 	width: auto;
 }
 
+.storyphoto {
+	text-align: center;
+	font-size: 13px;
+	width: 300px;
+}
+
+.storyphoto img {
+	display: block;
+	width: 300px;
+	height:200px;
+}
+
+.verticalphoto {
+	width: 200px !important;
+}
+
+.verticalphoto img{
+	width: 200px !important;
+	height:300px !important;
+}
+
 /* ---------------- */
 /* - Bridal Party - */
 /* ---------------- */
