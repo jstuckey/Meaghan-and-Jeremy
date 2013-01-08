@@ -79,6 +79,7 @@ li:hover h3 {
 
 article {
 	float: left;
+	line-height:150%;
 }
 
 article h1, article h2, article h3 {
