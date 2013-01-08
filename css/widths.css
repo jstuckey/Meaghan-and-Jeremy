@@ -32,24 +32,25 @@ article {
 }
 
 #engagementphotos {
-	/* (980 - 30 * 2 - (225 * 4 + 2 * 8)) / 2 */
+	/* (980 - 60 * 2 - (225 * 4 + 2 * 8)) / 2 */
 	width: 916px;
 	margin: 0 -28px;
 }
 
 #registryphotos {
-	/* (980 - 30 * 2 - (250 * 3 + 2 * 6)) / 2 */
-	margin: 0 79px;
+	/* (980 - 60 * 2 - (250 * 3 + 2 * 6)) / 2 */
+	margin: 0 49px;
 }
 
 #registryphotos div{
-	/* (980 - 30 * 2 - (250 * 2 + 2 * 4) - 79 * 2) / 2 */
-	margin: 0 127px;
+	/* (980 - 60 * 2 - (250 * 2 + 2 * 4) - 79 * 2) / 2 */
+	margin: 0 97px;
 }
 
 .map, .map iframe {
 	width: 920px;
 	height: 550px;
+	margin-left: -30px;
 }
 
 .map {
@@ -62,13 +63,13 @@ article {
 
 #servicephotos img:first-child {
 	width: 576px;
-	margin: 0 10px 0 0;
+	margin: 0 10px 0 -30px;
 	float: left;
 }
 
 #servicephotos img:last-child {
 	width: 324px;
-	margin: 0 0 0 10px;
+	margin: 0 -30px 0 10px;
 	clear: both;
 }
 
