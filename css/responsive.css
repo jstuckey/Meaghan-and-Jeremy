@@ -27,30 +27,30 @@ h2 {
 }
 
 article {
-	width: 860px;
-	margin: 0 60px;
+	width: 820px;
+	margin: 0 80px;
 }
 
-#engagementphotos {
-	/* (980 - 60 * 2 - (225 * 4 + 2 * 8)) / 2 */
+#engagementphotos div {
+	/* (980 - 80 * 2 - (225 * 4 + 2 * 8)) / 2 */
 	width: 916px;
-	margin: 0 -28px;
+	margin: 0 -48px;
 }
 
 #registryphotos {
-	/* (980 - 60 * 2 - (250 * 3 + 2 * 6)) / 2 */
-	margin: 0 49px;
+	/* (980 - 80 * 2 - (250 * 3 + 2 * 6)) / 2 */
+	margin: 0 29px;
 }
 
 #registryphotos div{
-	/* (980 - 60 * 2 - (250 * 2 + 2 * 4) - 79 * 2) / 2 */
-	margin: 0 97px;
+	/* (980 - 80 * 2 - (250 * 2 + 2 * 4) - 79 * 2) / 2 */
+	margin: 0 77px;
 }
 
 .map, .map iframe {
 	width: 920px;
 	height: 550px;
-	margin-left: -30px;
+	margin-left: -50px;
 }
 
 .map {
@@ -63,13 +63,13 @@ article {
 
 #servicephotos img:first-child {
 	width: 576px;
-	margin: 0 10px 0 -30px;
+	margin: 0 10px 0 -50px;
 	float: left;
 }
 
 #servicephotos img:last-child {
 	width: 324px;
-	margin: 0 -30px 0 10px;
+	margin: 0 -50px 0 10px;
 	clear: both;
 }
 
