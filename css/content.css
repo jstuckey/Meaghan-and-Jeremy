@@ -1,6 +1,35 @@
 /* ------------------- */
 /* - Bride and Groom - */
 /* ------------------- */
+
+#story p {
+	clear: none;
+	margin: 0 0 25px;
+}
+
+.storyphoto {
+	width: 300px;
+	height:200px;
+	margin: 0 0 5px 25px;
+	float: right;
+	display: inline;
+}
+
+.leftphoto {
+	float: left;
+	margin: 0 25px 5px 0;
+}
+
+/*p:nth-child(odd) img {
+	margin: 0 0 0 10px;
+	float: right;
+}*/
+
+.verticalphoto {
+	width: 200px !important;
+	height:300px !important;
+}
+
 #engagementphotos a {
 	float: left;
 	margin: 2px;
@@ -13,27 +42,6 @@
 	float: none;
 	height: auto;
 	width: auto;
-}
-
-.storyphoto {
-	text-align: center;
-	font-size: 13px;
-	width: 300px;
-}
-
-.storyphoto img {
-	display: block;
-	width: 300px;
-	height:200px;
-}
-
-.verticalphoto {
-	width: 200px !important;
-}
-
-.verticalphoto img{
-	width: 200px !important;
-	height:300px !important;
 }
 
 /* ---------------- */
