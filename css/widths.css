@@ -27,14 +27,14 @@ h2 {
 }
 
 article {
-	width: 920px;
-	margin: 0 30px;
+	width: 860px;
+	margin: 0 60px;
 }
 
 #engagementphotos {
 	/* (980 - 30 * 2 - (225 * 4 + 2 * 8)) / 2 */
 	width: 916px;
-	margin: 0 2px;
+	margin: 0 -28px;
 }
 
 #registryphotos {
@@ -95,6 +95,7 @@ footer {
 	
 	article {
 		width: 540px !important;
+		margin: 0 30px;
 	}
 	
 	#engagementphotos {
