@@ -31,6 +31,16 @@ article {
 	margin: 0 80px;
 }
 
+.storyphoto {
+	width: 300px;
+	height:200px;
+	margin: 0 0 5px 25px;
+}
+
+.leftphoto {
+	margin: 0 25px 5px 0;
+}
+
 #engagementphotos div {
 	/* (980 - 80 * 2 - (225 * 4 + 2 * 8)) / 2 */
 	width: 916px;
@@ -99,7 +109,7 @@ footer {
 		margin: 0 30px;
 	}
 	
-	#engagementphotos {
+	#engagementphotos div {
 		/* (600 - 30 * 2 - (225 * 2 + 2 * 4)) / 2 */
 		width: 458px !important;
 		margin: 0 41px !important;
@@ -168,7 +178,17 @@ footer {
 		margin: 0 5px !important;
 	}
 	
-	#engagementphotos {
+	.storyphoto {
+		width: 225px !important;
+		height:150px !important;
+		margin: 10px 12.5px 35px !important;
+	}
+	
+	.leftphoto {
+		margin: 10px 12.5px 35px !important;
+	}
+	
+	#engagementphotos div {
 		/* (260 - 5 * 2 - (225 * 1 + 2 * 2)) / 2 */
 		width: 229px !important;
 		margin: 0 10.5px !important;
