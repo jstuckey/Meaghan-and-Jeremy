@@ -26,6 +26,10 @@ function scrollToArticle() {
      $('html,body').animate({scrollTop: $("article").offset().top}, 200);
 }
 
+function scrollToTop() {
+    $('html,body').animate({scrollTop: $("#top").offset().top}, 200);
+}
+
 var pageTitleMapping = {
     'brideandgroom': 'Bride and Groom',
     'bridalparty': 'Bridal Party',
