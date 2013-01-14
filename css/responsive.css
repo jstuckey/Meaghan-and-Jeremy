@@ -83,6 +83,10 @@ article {
 	clear: both;
 }
 
+#top {
+	width: 980px;
+}
+
 footer {
 	width: 920px;
 	margin: 30px;
@@ -139,6 +143,10 @@ footer {
 	
 	#servicephotos img:last-child {
 		width: 187px  !important;
+	}
+	
+	#top {
+		width: 600px !important;
 	}
 	
 	footer {
@@ -236,17 +244,21 @@ footer {
 		width: 250px  !important;
 		margin: 8px 0 !important;
 	}
-
-	footer {
-		width: 240px !important;
-		margin: 10px !important;
-	}
 	
 	.lb-container {
 		padding-top: 4px !important;
 		padding-right: 4px !important;
 		padding-bottom: 4px !important;
 		padding-left: 4px !important;
+	}
+	
+	#top {
+		width: 260px !important;
+	}
+
+	footer {
+		width: 240px !important;
+		margin: 30px 10px !important;
 	}
    
 }
