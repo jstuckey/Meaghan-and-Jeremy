@@ -1,8 +1,27 @@
+/* -------- */
+/* - Font - */
+/* -------- */
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(http://themes.googleusercontent.com/static/fonts/quicksand/v2/sKd0EMYPAh5PYCRKSryvW7O3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Euphoria Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Euphoria Script'), local('EuphoriaScript-Regular'), url(http://themes.googleusercontent.com/static/fonts/euphoriascript/v1/c4XB4Iijj_NvSsCF4I0O2AKy3Ahh2i_dZitryYE_ZUE.woff) format('woff');
+}
+
 /* ----------- */
 /* - General - */
 /* ----------- */
 body {
 	font-family: 'Quicksand', 'Helvetica', sans-serif;
+	font-weight: normal;
 	background-color: #FFF;
 }
 
@@ -26,6 +45,7 @@ header a, header a:hover, header a:visited {
 
 h1, h2 {
 	font-family: 'Euphoria Script', cursive;
+	font-weight: normal;
 	color: #053055;
 	text-align: center;
 }
@@ -57,10 +77,12 @@ nav li {
 
 li h3 {
 	font-size: 28px;
-	font-weight: bold;
+	font-weight: normal;
 	color: #FFF;
 	text-align: right;
 	margin: 0;
+	width: 230px;
+	
 	transition: margin-right 0.2s ease-out;
 	
 	position: absolute;
