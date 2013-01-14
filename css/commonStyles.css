@@ -94,11 +94,7 @@ article h1 {
 	font-size: 22px;
 }
 
-article h1:before {
-	content: '-';
-}
-
-article h1:after {
+article h1:before, article h1:after {
 	content: '-';
 }
 
@@ -114,6 +110,12 @@ article h3 {
 /* ---------- */
 /* - Footer - */
 /* ---------- */
+
+#top {
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+}
 
 footer {
 	border-top-style:ridge;
