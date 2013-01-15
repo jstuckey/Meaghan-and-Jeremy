@@ -125,6 +125,10 @@ blockquote {
 	display: block;
 }
 
+.map {
+	margin: 20px 0;
+}
+
 #servicephotos img {
 	vertical-align: bottom;
 }
