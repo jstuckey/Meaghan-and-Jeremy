@@ -57,10 +57,17 @@ article {
 	margin: 0 77px;
 }
 
+.map {
+	margin-left: -50px;
+}
+
 .map, .map iframe {
 	width: 920px;
 	height: 550px;
-	margin-left: -50px;
+}
+
+.map small {
+	display: block;
 }
 
 .map > a {
@@ -232,6 +239,7 @@ footer {
 	.map > a {
 		display: block !important;
 		text-align: center !important;
+		margin-top: 50px;
 	}
 	
 	#servicephotos img:first-child {
