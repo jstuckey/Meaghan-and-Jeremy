@@ -94,6 +94,26 @@ article {
 	margin: 0 -45px 10px 5px;
 }
 
+#receptionphotos img {
+	float: left;
+}
+
+#receptionphotos img:first-child,
+#receptionphotos img:last-child {
+	margin: 0 0 10px -45px;
+	width: 910px;
+}
+
+#receptionphotos img:nth-child(2) {
+	width: 324px;
+	margin: 0 5px 10px -45px;
+}
+
+#receptionphotos img:nth-child(3) {
+	width: 576px;
+	margin: 0 -45px 10px 5px;
+}
+
 #top {
 	width: 980px;
 }
@@ -146,12 +166,12 @@ footer {
 	}
 	
 	#servicephotos img {
-		width: 190.8px;
+		width: 190.8px !important;
 	}
 	
 	#servicephotos img:first-child,
 	#servicephotos img:last-child {
-		width: 339.2px;
+		width: 339.2px !important;
 	}
 	
 	#servicephotos img:first-child,
@@ -162,6 +182,22 @@ footer {
 	#servicephotos img:nth-child(2),
 	#servicephotos img:last-child {
 		margin-right: 0 !important;
+	}
+	
+	#receptionphotos img:first-child,
+	#receptionphotos img:last-child {
+		margin-left: 0;
+		width: 540px;
+	}
+	
+	#receptionphotos img:nth-child(2) {
+		width: 190.8px;
+		margin: 0 5px 10px 0;
+	}
+	
+	#receptionphotos img:nth-child(3) {
+		width: 339.2px;
+		margin: 0 0 10px 5px;
 	}
 	
 	#top {
@@ -257,7 +293,8 @@ footer {
 		display: block !important;
 	}
 	
-	#servicephotos img {
+	#servicephotos img,
+	#receptionphotos img {
 		width: 250px !important;
 		margin: 0 0 8px !important;
 		float: none !important;

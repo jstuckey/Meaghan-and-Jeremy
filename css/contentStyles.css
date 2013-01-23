@@ -136,7 +136,8 @@ blockquote {
 	text-align: center;
 }
 
-#servicephotos img {
+#servicephotos img, #receptionphotos img {
+	height: auto;
 	vertical-align: bottom;
 }
 
