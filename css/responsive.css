@@ -2,6 +2,8 @@
 /* - Default - Desktop - */
 /* --------------------- */
 
+/* General */
+
 body {
 	width: 980px;
 	margin: 0 auto;
@@ -20,16 +22,29 @@ h2 {
 	margin: 5px 0 10px;
 }
 
+article {
+	width: 820px;
+	margin: 0 80px;
+}
+
+#top {
+	width: 980px;
+}
+
+footer {
+	width: 920px;
+	margin: 30px;
+}
+
+/* Navigation */
+
 #imagePanel {
 	/* (980  - (250 * 3 + 5 * 6)) / 2 */
 	width: 780px;
 	margin: 0 100px;
 }
 
-article {
-	width: 820px;
-	margin: 0 80px;
-}
+/* Bride and Groom */
 
 .storyphoto {
 	width: 300px;
@@ -47,6 +62,8 @@ article {
 	margin: 0 -48px;
 }
 
+/* Registries */
+
 #registryphotos {
 	/* (980 - 80 * 2 - (250 * 3 + 2 * 6)) / 2 */
 	margin: 0 29px;
@@ -57,22 +74,7 @@ article {
 	margin: 0 77px;
 }
 
-.map {
-	margin-left: -45px;
-}
-
-.map, .map iframe {
-	width: 910px;
-	height: 550px;
-}
-
-.map small {
-	display: block;
-}
-
-.map > a {
-	display: none;
-}
+/* Service */
 
 #servicephotos img {
 	width: 324px;
@@ -94,33 +96,54 @@ article {
 	margin: 0 -45px 10px 5px;
 }
 
+/* Reception */
+
 #receptionphotos img {
 	float: left;
 }
 
-#receptionphotos img:first-child,
+#receptionphotos img:first-child {
+	width: 450px;
+	margin: 0 5px 10px -45px;
+}
+
+#receptionphotos img:nth-child(2) {
+	width: 450px;
+	margin: 0 -45px 10px 5px;
+}
+
+#receptionphotos img:nth-child(3) {
+	width: 324px;
+	margin: 0 5px 10px -45px;
+}
+
+#receptionphotos img:nth-child(4) {
+	width: 576px;
+	margin: 0 -45px 10px 5px;
+}
+
 #receptionphotos img:last-child {
 	margin: 0 0 10px -45px;
 	width: 910px;
 }
 
-#receptionphotos img:nth-child(2) {
-	width: 324px;
-	margin: 0 5px 10px -45px;
+/* Service and Reception */
+
+.map {
+	margin-left: -45px;
 }
 
-#receptionphotos img:nth-child(3) {
-	width: 576px;
-	margin: 0 -45px 10px 5px;
+.map, .map iframe {
+	width: 910px;
+	height: 550px;
 }
 
-#top {
-	width: 980px;
+.map small {
+	display: block;
 }
 
-footer {
-	width: 920px;
-	margin: 30px;
+.map > a {
+	display: none;
 }
 
 /* ---------- */
@@ -128,15 +151,12 @@ footer {
 /* ---------- */
 
 @media only screen and (max-width: 980px) {
+	
+	/* General */
+	
 	body {
 		width: 600px !important;
 		background-image: url(../images/backgrounds/Background_Top_Tablet.png), url(../images/backgrounds/Background_Tablet.png) !important;
-	}
-	
-	#imagePanel {
-		/* (600  - (250 * 2 + 5 * 4)) / 2 */
-		width: 520px !important;
-		margin: 0 40px !important;
 	}
 	
 	article {
@@ -144,11 +164,31 @@ footer {
 		margin: 0 30px;
 	}
 	
+	#top {
+		width: 600px !important;
+	}
+	
+	footer {
+		width: 540px !important;
+	}
+	
+	/* Navigation */
+	
+	#imagePanel {
+		/* (600  - (250 * 2 + 5 * 4)) / 2 */
+		width: 520px !important;
+		margin: 0 40px !important;
+	}
+	
+	/* Bride and Groom */
+	
 	#engagementphotos div {
 		/* (600 - 30 * 2 - (225 * 2 + 2 * 4)) / 2 */
 		width: 458px !important;
 		margin: 0 41px !important;
 	}
+	
+	/* Registries */
 	
 	#registryphotos {
 		/* (600 - 30 * 2 - (250 * 2 + 2 * 4)) / 2 */
@@ -159,11 +199,7 @@ footer {
 		margin: 0 !important;
 	}
 	
-	.map, .map iframe {
-		width:540px !important;
-		height: 450px !important;
-		margin-left: 0 !important;
-	}
+	/* Service */
 	
 	#servicephotos img {
 		width: 190.8px !important;
@@ -184,28 +220,38 @@ footer {
 		margin-right: 0 !important;
 	}
 	
-	#receptionphotos img:first-child,
+	/* Reception */
+	
+	#receptionphotos img:first-child {
+		width: 265px;
+		margin: 0 5px 10px 0;
+	}
+	
+	#receptionphotos img:nth-child(2) {
+		width: 265px;
+		margin: 0 0 10px 5px;
+	}
+	
+	#receptionphotos img:nth-child(3) {
+		width: 190.8px;
+		margin: 0 5px 10px 0;
+	}
+	
+	#receptionphotos img:nth-child(4) {
+		width: 339.2px;
+		margin: 0 0 10px 5px;
+	}
+	
 	#receptionphotos img:last-child {
 		margin-left: 0;
 		width: 540px;
 	}
 	
-	#receptionphotos img:nth-child(2) {
-		width: 190.8px;
-		margin: 0 5px 10px 0;
-	}
-	
-	#receptionphotos img:nth-child(3) {
-		width: 339.2px;
-		margin: 0 0 10px 5px;
-	}
-	
-	#top {
-		width: 600px !important;
-	}
-	
-	footer {
-		width: 540px !important;
+	/*Service and Reception*/
+	.map, .map iframe {
+		width:540px !important;
+		height: 450px !important;
+		margin-left: 0 !important;
 	}
 }
 
@@ -215,7 +261,9 @@ footer {
 
 @media only screen and (max-width: 600px) {
     
-   body {
+	/* General */
+    
+	body {
 		width: 260px !important;
 		background-image: url(../images/backgrounds/Background_Top_Mobile.png), url(../images/backgrounds/Background_Mobile.png) !important;
 	}
@@ -231,16 +279,36 @@ footer {
 		text-align: center !important;
 	}
 	
+	article {
+		width: 250px !important;
+		margin: 0 5px !important;
+	}
+	
+	.lb-container {
+		padding-top: 4px !important;
+		padding-right: 4px !important;
+		padding-bottom: 4px !important;
+		padding-left: 4px !important;
+	}
+	
+	#top {
+		width: 260px !important;
+	}
+
+	footer {
+		width: 240px !important;
+		margin: 30px 10px !important;
+	}
+	
+	/* Navigation */
+	
 	#imagePanel {
 		/* (260  - (250 * 1 + 5 * 2)) / 2 */
 		width: 260px !important;
 		margin: 0 !important;
 	}
 	
-	article {
-		width: 250px !important;
-		margin: 0 5px !important;
-	}
+	/* Bride and Groom */
 	
 	.storyphoto {
 		width: 225px !important;
@@ -262,6 +330,8 @@ footer {
 		text-align: center !important;
 	}
 	
+	/* Bridal Party */
+	
 	.imagewrapper {
 		margin: 0 25px !important;
 	}
@@ -270,6 +340,8 @@ footer {
 		text-align: center !important;
 	}
 	
+	/* Registries */
+	
 	#registryphotos, #registryphotos img {
 		/* (260 - 5 * 2 - (250 * 1 + 2 * 2)) / 2 */
 		margin: 2px 0 !important;
@@ -277,6 +349,15 @@ footer {
 	
 	#registryphotos div{
 		margin: 0 !important;
+	}
+	
+	/* Serivce and Reception */
+	
+	#servicephotos img,
+	#receptionphotos img {
+		width: 250px !important;
+		margin: 0 0 8px !important;
+		float: none !important;
 	}
 	
 	.map {
@@ -293,27 +374,4 @@ footer {
 		display: block !important;
 	}
 	
-	#servicephotos img,
-	#receptionphotos img {
-		width: 250px !important;
-		margin: 0 0 8px !important;
-		float: none !important;
-	}
-
-	.lb-container {
-		padding-top: 4px !important;
-		padding-right: 4px !important;
-		padding-bottom: 4px !important;
-		padding-left: 4px !important;
-	}
-	
-	#top {
-		width: 260px !important;
-	}
-
-	footer {
-		width: 240px !important;
-		margin: 30px 10px !important;
-	}
-   
 }
