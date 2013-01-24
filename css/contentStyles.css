@@ -108,11 +108,6 @@ blockquote {
 	border-left: 4px solid #053055;
 }
 
-#registryphotos img {
-	float: left;
-	margin: 2px;
-}
-
 /* ------------------------- */
 /* - Service and Reception - */
 /* ------------------------- */
@@ -136,8 +131,13 @@ blockquote {
 	text-align: center;
 }
 
-#servicephotos img, #receptionphotos img {
+/* ------------ */
+/* - Multiple - */
+/* ------------ */
+
+#registryphotos img, #servicephotos img, #receptionphotos img, #hotelphotos img {
 	height: auto;
 	vertical-align: bottom;
+	float: left;
 }
 

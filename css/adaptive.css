@@ -64,9 +64,24 @@ footer {
 
 /* Registries */
 
-#registryphotos {
+#registryphotos img {
 	/* (980 - 80 * 2 - (250 * 3 + 2 * 6)) / 2 */
-	margin: 0 29px;
+	margin: 0 5px 10px;
+	width: 297px;
+}
+
+#registryphotos img:nth-child(1),
+#registryphotos img:nth-child(2) {
+	width: 910px;
+	margin: 0 -45px 10px -45px;
+}
+
+#registryphotos img:nth-child(3n + 3) {
+	margin-left: -46px;
+}
+
+#registryphotos img:nth-child(3n + 5) {
+	margin-right: -45px;
 }
 
 #registryphotos div {
@@ -78,7 +93,6 @@ footer {
 
 #servicephotos img {
 	width: 324px;
-	float: left;
 }
 
 #servicephotos img:first-child,
@@ -97,10 +111,6 @@ footer {
 }
 
 /* Reception */
-
-#receptionphotos img {
-	float: left;
-}
 
 #receptionphotos img:first-child {
 	width: 450px;
@@ -190,14 +200,18 @@ footer {
 	
 	/* Registries */
 	
-	#registryphotos {
-		/* (600 - 30 * 2 - (250 * 2 + 2 * 4)) / 2 */
-		margin: 0 16px !important;
+	#registryphotos img {
+		width: 173px;
 	}
 	
-	#registryphotos div{
-		margin: 0 !important;
+	#registryphotos img:nth-child(3n + 3) {
+		margin-left: 0;
 	}
+	
+	#registryphotos img:nth-child(3n + 5) {
+		margin-right: 0;
+	}
+	
 	
 	/* Service */
 	
@@ -342,13 +356,10 @@ footer {
 	
 	/* Registries */
 	
-	#registryphotos, #registryphotos img {
+	#registryphotos img {
 		/* (260 - 5 * 2 - (250 * 1 + 2 * 2)) / 2 */
-		margin: 2px 0 !important;
-	}
-	
-	#registryphotos div{
-		margin: 0 !important;
+		width: 250px !important;
+		margin: 0 0 10px !important;
 	}
 	
 	/* Serivce and Reception */
