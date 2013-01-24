@@ -71,16 +71,16 @@ footer {
 }
 
 #registryphotos img:nth-child(1),
-#registryphotos img:nth-child(2) {
+#registryphotos img:nth-child(5) {
 	width: 910px;
 	margin: 0 -45px 10px -45px;
 }
 
-#registryphotos img:nth-child(3n + 3) {
+#registryphotos img:nth-child(4n + 2) {
 	margin-left: -46px;
 }
 
-#registryphotos img:nth-child(3n + 5) {
+#registryphotos img:nth-child(4n + 4) {
 	margin-right: -45px;
 }
 
@@ -204,11 +204,17 @@ footer {
 		width: 173px;
 	}
 	
-	#registryphotos img:nth-child(3n + 3) {
+	#registryphotos img:nth-child(1),
+	#registryphotos img:nth-child(5) {
+		margin-left: 0;
+		width: 540px;
+	}
+	
+	#registryphotos img:nth-child(4n + 2) {
 		margin-left: 0;
 	}
 	
-	#registryphotos img:nth-child(3n + 5) {
+	#registryphotos img:nth-child(4n + 4) {
 		margin-right: 0;
 	}
 	
