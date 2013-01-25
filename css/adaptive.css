@@ -156,6 +156,23 @@ footer {
 	display: none;
 }
 
+/* Accomodations */
+
+#hotelphotos img:first-child {
+	width: 334px;
+	margin: 0 0 0 -45px;
+}
+
+#hotelphotos img:nth-child(2) {
+	height: 250px;
+	margin: 0 10px;
+}
+
+#hotelphotos img:last-child {
+	width: 334px;
+	margin: 0 -45px 0 0;
+}
+
 /* ---------- */
 /* - Tablet - */
 /* ---------- */
@@ -267,11 +284,24 @@ footer {
 		width: 540px;
 	}
 	
-	/*Service and Reception*/
+	/* Service and Reception */
 	.map, .map iframe {
 		width:540px !important;
 		height: 450px !important;
 		margin-left: 0 !important;
+	}
+	
+	/* Accomodations */
+
+	#hotelphotos img:first-child,
+	#hotelphotos img:last-child {
+		width: 195px;
+		margin: 0;
+	}
+	
+	#hotelphotos img:nth-child(2) {
+		height:146px;
+		margin: 0 10px;
 	}
 }
 
@@ -391,4 +421,11 @@ footer {
 		display: block !important;
 	}
 	
+	/* Accomodations */
+
+	#hotelphotos img {
+		width: 250px !important;
+		height: auto !important;
+		margin: 0 0 10px !important;		
+	}
 }
