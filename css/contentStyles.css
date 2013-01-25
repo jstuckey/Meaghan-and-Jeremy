@@ -2,23 +2,23 @@
 /* - Bride and Groom - */
 /* ------------------- */
 
-#story p {
+#story > p {
 	clear: none;
 	margin: 0 0 25px;
 }
 
-.storyphoto {
+.photoandcaption {
 	float: right;
 	display: inline;
 }
 
-.leftphoto {
+.leftaligned {
 	float: left;
 }
 
-.verticalphoto {
-	width: 200px !important;
-	height:300px !important;
+.photoandcaption p {
+	text-align: center;
+	margin: 0;
 }
 
 #engagementphotos a {
@@ -108,9 +108,21 @@ blockquote {
 	border-left: 4px solid #053055;
 }
 
-/* ------------------------- */
-/* - Service and Reception - */
-/* ------------------------- */
+/* ----------------- */
+/* - Accomodations - */
+/* ----------------- */
+
+
+
+/* ------------ */
+/* - Multiple - */
+/* ------------ */
+
+#registryphotos img, #servicephotos img, #receptionphotos img, #hotelphotos img {
+	height: auto;
+	vertical-align: bottom;
+	float: left;
+}
 
 .address {
 	margin-left: 20px;
@@ -130,14 +142,3 @@ blockquote {
 	margin-top: 50px;
 	text-align: center;
 }
-
-/* ------------ */
-/* - Multiple - */
-/* ------------ */
-
-#registryphotos img, #servicephotos img, #receptionphotos img, #hotelphotos img {
-	height: auto;
-	vertical-align: bottom;
-	float: left;
-}
-

@@ -49,10 +49,14 @@ footer {
 .storyphoto {
 	width: 300px;
 	height:200px;
+	margin: 0;
+}
+
+.photoandcaption {
 	margin: 0 0 5px 25px;
 }
 
-.leftphoto {
+.leftaligned {
 	margin: 0 25px 5px 0;
 }
 
@@ -160,17 +164,17 @@ footer {
 
 #hotelphotos img:first-child {
 	width: 334px;
-	margin: 0 0 0 -45px;
+	margin: 0 0 20px -45px;
 }
 
 #hotelphotos img:nth-child(2) {
 	height: 250px;
-	margin: 0 10px;
+	margin: 0 10px 20px;
 }
 
 #hotelphotos img:last-child {
 	width: 334px;
-	margin: 0 -45px 0 0;
+	margin: 0 -45px 20px 0;
 }
 
 /* ---------- */
@@ -296,12 +300,12 @@ footer {
 	#hotelphotos img:first-child,
 	#hotelphotos img:last-child {
 		width: 195px;
-		margin: 0;
+		margin: 0 0 20px;
 	}
 	
 	#hotelphotos img:nth-child(2) {
 		height:146px;
-		margin: 0 10px;
+		margin: 0 10px 20px;
 	}
 }
 
@@ -427,5 +431,9 @@ footer {
 		width: 250px !important;
 		height: auto !important;
 		margin: 0 0 10px !important;		
+	}
+	
+	#hotelphotos img:last-child {
+		margin-bottom: 20px !important;		
 	}
 }
