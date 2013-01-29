@@ -242,13 +242,15 @@ footer {
 	
 	/* Service */
 	
-	#servicephotos img {
-		width: 190.8px;
-	}
-	
 	#servicephotos img:first-child,
 	#servicephotos img:last-child {
-		width: 339.2px;
+		width: 339px;
+	}
+	
+	#servicephotos img:nth-child(2),
+	#servicephotos img:nth-child(3) {
+		height: 254px;
+		width: auto;
 	}
 	
 	#servicephotos img:first-child,
