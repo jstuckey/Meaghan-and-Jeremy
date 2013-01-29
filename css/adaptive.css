@@ -243,12 +243,12 @@ footer {
 	/* Service */
 	
 	#servicephotos img {
-		width: 190.8px !important;
+		width: 190.8px;
 	}
 	
 	#servicephotos img:first-child,
 	#servicephotos img:last-child {
-		width: 339.2px !important;
+		width: 339.2px;
 	}
 	
 	#servicephotos img:first-child,
@@ -367,11 +367,14 @@ footer {
 	.storyphoto {
 		width: 225px !important;
 		height:150px !important;
-		margin: 10px 12.5px 35px !important;
 	}
 	
-	.leftphoto {
-		margin: 10px 12.5px 35px !important;
+	.photoandcaption {
+		margin: 10px 12.5px 25px !important;
+	}
+	
+	.leftaligned {
+		margin: 10px 12.5px 25px !important;
 	}
 	
 	#engagementphotos div {
