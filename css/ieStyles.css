@@ -10,7 +10,7 @@ ul a {
 }
 
 #registryphotos img, #servicephotos img, #receptionphotos img, #hotelphotos img {
-	float: none;
-	margin: 5px;
-	width: 540px;
+	float: none !important;
+	margin: 5px auto !important;
+	width: 540px !important;
 }
