@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 	background-image: url(../images/backgrounds/Background_Top.png), url(../images/backgrounds/Background.png);
 	background-repeat: no-repeat, repeat-y;
-	background-position: center top, center top; 
+	background-position: center top, center top;
 }
 
 h1 {
@@ -164,17 +164,17 @@ footer {
 
 #hotelphotos img:first-child {
 	width: 334px;
-	margin: 0 0 20px -45px;
+	margin: 0 0 0 -45px;
 }
 
 #hotelphotos img:nth-child(2) {
 	height: 250px;
-	margin: 0 10px 20px;
+	margin: 0 10px;
 }
 
 #hotelphotos img:last-child {
 	width: 334px;
-	margin: 0 -45px 20px 0;
+	margin: 0 -45px 0 0;
 }
 
 /* ---------- */
@@ -182,121 +182,121 @@ footer {
 /* ---------- */
 
 @media only screen and (max-width: 980px) {
-	
+
 	/* General */
-	
+
 	body {
 		width: 600px !important;
 		background-image: url(../images/backgrounds/Background_Top_Tablet.png), url(../images/backgrounds/Background_Tablet.png) !important;
 	}
-	
+
 	article {
 		width: 540px !important;
 		margin: 0 30px;
 	}
-	
+
 	#top {
 		width: 600px !important;
 	}
-	
+
 	footer {
 		width: 540px !important;
 	}
-	
+
 	/* Navigation */
-	
+
 	#imagePanel {
 		/* (600  - (250 * 2 + 5 * 4)) / 2 */
 		width: 520px !important;
 		margin: 0 40px !important;
 	}
-	
+
 	/* Bride and Groom */
-	
+
 	#engagementphotos div {
 		/* (600 - 30 * 2 - (225 * 2 + 2 * 4)) / 2 */
 		width: 458px !important;
 		margin: 0 41px !important;
 	}
-	
+
 	/* Registries */
-	
+
 	#registryphotos img {
 		width: 173px;
 	}
-	
+
 	#registryphotos img:nth-child(1),
 	#registryphotos img:nth-child(5) {
 		margin-left: 0;
 		width: 540px;
 	}
-	
+
 	#registryphotos img:nth-child(4n + 2) {
 		margin-left: 0;
 	}
-	
+
 	#registryphotos img:nth-child(4n + 4) {
 		margin-right: 0;
 	}
-	
-	
+
+
 	/* Service */
-	
+
 	#servicephotos img:first-child,
 	#servicephotos img:last-child {
 		width: 339px;
 	}
-	
+
 	#servicephotos img:nth-child(2),
 	#servicephotos img:nth-child(3) {
 		height: 254px;
 		width: auto;
 	}
-	
+
 	#servicephotos img:first-child,
 	#servicephotos img:nth-child(3) {
 		margin-left: 0 !important;
 	}
-	
+
 	#servicephotos img:nth-child(2),
 	#servicephotos img:last-child {
 		margin-right: 0 !important;
 	}
-	
+
 	/* Reception */
-	
+
 	#receptionphotos img:first-child {
 		width: 265px;
 		margin: 0 5px 10px 0;
 	}
-	
+
 	#receptionphotos img:nth-child(2) {
 		width: 265px;
 		margin: 0 0 10px 5px;
 	}
-	
+
 	#receptionphotos img:nth-child(3) {
 		width: 190.8px;
 		margin: 0 5px 10px 0;
 	}
-	
+
 	#receptionphotos img:nth-child(4) {
 		width: 339.2px;
 		margin: 0 0 10px 5px;
 	}
-	
+
 	#receptionphotos img:last-child {
 		margin-left: 0;
 		width: 540px;
 	}
-	
+
 	/* Service and Reception */
 	.map, .map iframe {
 		width:540px !important;
 		height: 450px !important;
 		margin-left: 0 !important;
 	}
-	
+
 	/* Accomodations */
 
 	#hotelphotos img:first-child,
@@ -304,7 +304,7 @@ footer {
 		width: 195px;
 		margin: 0 0 20px;
 	}
-	
+
 	#hotelphotos img:nth-child(2) {
 		height:146px;
 		margin: 0 10px 20px;
@@ -316,37 +316,37 @@ footer {
 /* ---------- */
 
 @media only screen and (max-width: 600px) {
-    
+
 	/* General */
-    
+
 	body {
 		width: 260px !important;
 		background-image: url(../images/backgrounds/Background_Top_Mobile.png), url(../images/backgrounds/Background_Mobile.png) !important;
 	}
-	
+
 	h1 {
 		font-size:45px;
 		margin: 28px 0 2px;
 	}
-	
+
 	h2 {
 		font-size:25px;
 		margin: 10px 0;
 		text-align: center !important;
 	}
-	
+
 	article {
 		width: 250px !important;
 		margin: 0 5px !important;
 	}
-	
+
 	.lb-container {
 		padding-top: 4px !important;
 		padding-right: 4px !important;
 		padding-bottom: 4px !important;
 		padding-left: 4px !important;
 	}
-	
+
 	#top {
 		width: 260px !important;
 	}
@@ -355,90 +355,86 @@ footer {
 		width: 240px !important;
 		margin: 30px 10px !important;
 	}
-	
+
 	/* Navigation */
-	
+
 	#imagePanel {
 		/* (260  - (250 * 1 + 5 * 2)) / 2 */
 		width: 260px !important;
 		margin: 0 !important;
 	}
-	
+
 	/* Bride and Groom */
-	
+
 	.storyphoto {
 		width: 225px !important;
 		height:150px !important;
 	}
-	
+
 	.photoandcaption {
 		margin: 10px 12.5px 25px !important;
 	}
-	
+
 	.leftaligned {
 		margin: 10px 12.5px 25px !important;
 	}
-	
+
 	#engagementphotos div {
 		/* (260 - 5 * 2 - (225 * 1 + 2 * 2)) / 2 */
 		width: 229px !important;
 		margin: 0 10.5px !important;
 	}
-	
+
 	#engagementphotos a {
 		text-align: center !important;
 	}
-	
+
 	/* Bridal Party */
-	
+
 	.imagewrapper {
 		margin: 0 25px !important;
 	}
-	
+
 	.bridalparty h3 {
 		text-align: center !important;
 	}
-	
+
 	/* Registries */
-	
+
 	#registryphotos img {
 		/* (260 - 5 * 2 - (250 * 1 + 2 * 2)) / 2 */
 		width: 250px !important;
 		margin: 0 0 10px !important;
 	}
-	
+
 	/* Serivce and Reception */
-	
+
 	#servicephotos img,
 	#receptionphotos img {
 		width: 250px !important;
 		margin: 0 0 8px !important;
 		float: none !important;
 	}
-	
+
 	.map {
 		width: 250px !important;
 		height: 50px !important;
 		margin: 0 !important;
 	}
-	
+
 	.map iframe, .map small {
 		display: none !important;
 	}
-	
+
 	.map > a {
 		display: block !important;
 	}
-	
+
 	/* Accomodations */
 
 	#hotelphotos img {
 		width: 250px !important;
 		height: auto !important;
-		margin: 0 0 10px !important;		
-	}
-	
-	#hotelphotos img:last-child {
-		margin-bottom: 20px !important;		
+		margin: 0 0 10px !important;
 	}
 }
