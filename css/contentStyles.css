@@ -42,7 +42,7 @@
 .bio {
 	display: block;
 	clear: both;
-	margin: 40px 0;	
+	margin: 40px 0;
 }
 
 .bridalparty h3 {
@@ -57,7 +57,7 @@
 	width: 200px;
 	height: 200px;
 	margin: 0 10px 10px 0;
-	position: relative;	
+	position: relative;
 	float: left;
 }
 
@@ -112,7 +112,14 @@ blockquote {
 /* - Accomodations - */
 /* ----------------- */
 
+#hotelphotos {
+	/* Make div take on height of floated children */
+	overflow: hidden;
+}
 
+#other-hotels p {
+	margin-left: 20px;
+}
 
 /* ------------ */
 /* - Multiple - */

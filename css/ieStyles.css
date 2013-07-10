@@ -8,3 +8,9 @@ body {
 ul a {
 	cursor: pointer;
 }
+
+#registryphotos img, #servicephotos img, #receptionphotos img, #hotelphotos img {
+	float: none !important;
+	margin: 5px auto !important;
+	width: 540px !important;
+}
